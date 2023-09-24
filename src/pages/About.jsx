@@ -34,7 +34,7 @@ const About = () => {
                       <div className='flex justify-between items-center flex-wrap mt-20'>
                           <div className='w-11/12 sm:w-6/12 md:w-4/12 mx-auto font-shippori font-bold  mb-10 md:mb-0'>
                               <div className='w-full sm:w-10/12 mx-auto'>
-                                  <img className='w-[50px] md:w-[55px] mx-auto mb-6 opacity-[0.68]' src="./src/assets/images/ui/goals.png" alt="" />
+                                  <img className='w-[50px] md:w-[55px] mx-auto mb-6 opacity-[0.68]' src="./images/ui/goals.png" alt="" />
                                   <h1 className='text-[16px] text-textpri text-center'>OUR MISSIONS</h1>
                                   <p className='text-textsec pt-2 text-justify sm:text-center'>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis odit amet aliquid aut modi doloremque aspernatur odio veritatis, nemo quisquam, ab dolorem corporis ea numquam sed libero. Reiciendis totam illum accusamus vel quod eligendi laborum architecto quisquam, aliquam fugit! In qui reprehenderit possimus.
@@ -44,7 +44,7 @@ const About = () => {
 
                           <div className='w-11/12 sm:w-6/12 md:w-4/12 mx-auto font-shippori font-bold mb-10 md:mb-0'>
                               <div className='w-full sm:w-10/12 mx-auto'>
-                                  <img className='w-[50px] md:w-[55px] mx-auto mb-6 opacity-[0.68]' src="./src/assets/images/ui/pearl-necklace.png" alt="" />
+                                  <img className='w-[50px] md:w-[55px] mx-auto mb-6 opacity-[0.68]' src="./images/ui/pearl-necklace.png" alt="" />
                                   <h1 className='text-[16px] text-textpri text-center'>WHAT ABOUT PRODUCTS</h1>
                                   <p className='text-textsec pt-2 text-justify sm:text-center'>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis odit amet aliquid aut modi doloremque aspernatur odio veritatis, nemo quisquam, ab dolorem corporis ea numquam sed libero. Reiciendis totam illum accusamus vel quod eligendi laborum architecto quisquam, aliquam fugit! In qui reprehenderit possimus.
@@ -54,7 +54,7 @@ const About = () => {
 
                           <div className='w-11/12 sm:w-6/12 md:w-4/12 mx-auto font-shippori font-bold'>
                               <div className='w-full sm:w-10/12 mx-auto'>
-                                  <img className='w-[60px] md:w-[63px] mx-auto mb-4 opacity-[0.68]' src="./src/assets/images/ui/handshake.png" alt="" />
+                                  <img className='w-[60px] md:w-[63px] mx-auto mb-4 opacity-[0.68]' src="./images/ui/handshake.png" alt="" />
                                   <h1 className='text-[16px] text-textpri text-center'>RESPONSIBILITY</h1>
                                   <p className='text-textsec pt-2 text-justify sm:text-center'>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis odit amet aliquid aut modi doloremque aspernatur odio veritatis, nemo quisquam, ab dolorem corporis ea numquam sed libero. Reiciendis totam illum accusamus vel quod eligendi laborum architecto quisquam, aliquam fugit! In qui reprehenderit possimus.
