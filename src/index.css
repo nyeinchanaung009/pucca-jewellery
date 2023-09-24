@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
+
+    @font-face {
+        font-family: Ponenyet;
+        src: url(./assets/fonts/MyanmarPonenyet.ttf);
+    }
+
+    @font-face {
+        font-family: Pucca;
+        src: url(./assets/fonts/FontsFree-Net-Pierce-Jameson-Sans.ttf);
+    }
+
+    @font-face {
+        font-family: Gsfont;
+        src: url(./assets/fonts/handel_gothic_d_bold.ttf);
+    }
+
+    :root{
+        --accent1 : #22caa3;
+        --accent2 : #00c399;
+        --accent3 : #1ab6bf;
+        --darkgreen : #015426;
+        --orange : #f2c600;
+        --yellow : #ffd700;
+        --slategrey : #718190;
+        
+        --textpri : #353535;
+        --textsec : #717171;
+        --textbody : #5a5757;
+        --textwhite : #fefefe;
+        --textmute : #8f8f8f;
+        --textactive : #2f2e2e;
+
+        --shape : #d9d9d9;
+
+        --ponenyet : Ponenyet;
+        --shippori : 'Shippori Mincho B1', serif;
+        --pucca : Pucca;
+        --gsfont : Gsfont;
+    }
+
+    .themebg{
+        background: linear-gradient(to bottom,var(--accent1),var(--accent2));
+    }
+
+    .bg1{
+        /* background: linear-gradient(to bottom,#eeeeef,#f1f1f2,#f3f3f3); */
+        background: linear-gradient(to left,#efeff0,#f2f2f3,#ffffff);
+    }
+
+    .bg2{
+        /* background: linear-gradient(to bottom,#eeeef0,#ededef); */
+        background: linear-gradient(to bottom,#ececec,#e8e8eb);
+    }
+
+    .bg3{
+        background: #fefefe;
+    }
+
+    .cardbg{
+        background: #f5f5f5;
+        /* f7f7f7 */
+    }
+
+    .loginbg{
+        background: #f1f1f3;
+    }
+
+    .whitebg{
+        background: #ffffff;
+    }
+
+   .bordercolor{
+        @apply border-black/20
+   }
+
+   .navLink.active{
+        color:var(--accent1);
+        @apply drop-shadow-md
+   }
+
+   .innershadow{
+        box-shadow: 0 3px 13px 8px rgba(8, 8, 18, 0.2) inset;
+        border-top: 5px solid #34405dec;
+        border-left: 7px solid #a39fb3;
+        border-right: 7px solid #a39fb3;
+   }
+
+   .textshadow{
+        text-shadow: 0 4px rgba(0,0,0,0.4);
+        filter:drop-shadow(0 5px 1px rgba(0,0,0,0.4));
+   }
+
+   .pag{
+        @apply px-3 py-1 bg2 text-textpri font-bold me-1 border border-transparent hover:border-textmute rounded shadow-sm
+   }
+
+   #paginateItem.active{
+        background: var(--accent1) !important;
+        color:#ffffff !important;
+   }
+   
+}

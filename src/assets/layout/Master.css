@@ -1,0 +1,24 @@
+.fade-appear{
+    opacity: 0.1;
+}
+.fade-appear-active{
+    opacity: 1;
+}
+.fade-appear-done{
+    opacity: 0.1;
+}
+.fade-enter-done{
+    opacity: 1;
+}
+.fade-enter-done,
+.fade-appear{
+    transition: opacity 410ms;
+}
+
+/* ============================================== */
+
+/* fade-appear-active */
+/* fade-appear */
+
+/* fade-appear-done */
+/* fade-enter-done */

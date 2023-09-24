@@ -1,0 +1,484 @@
+{
+    "data" : [
+        {
+            "id" : 1,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0001A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg1.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "190000"
+        },
+        {
+            "id" : 2,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0002A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg11.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "1750000"
+        },
+        {
+            "id" : 3,
+            "name" : "‌ရွှေဟန်းချိန်း",
+            "productId" : "0001D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg21.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "784000"
+        },
+        {
+            "id" : 4,
+            "name" : "ရွှေလက်စွပ်",
+            "productId" : "0001F",
+            "material" : "gold",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg31.jpg",
+            "desc" : "ရွှေချိန် ၄ပဲ၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "360000"
+        },
+        {
+            "id" : 5,
+            "name" : "စိန်ဆွဲသီး",
+            "productId" : "0001G",
+            "material" : "diamond",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg41.jpg",
+            "desc" : "NTW စိန်၊ ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "1597000"
+        },
+        {
+            "id" : 6,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0003A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg2.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "1200000"
+        },
+        {
+            "id" : 7,
+            "name" : "ရွှေလက်ကောက်",
+            "productId" : "0001B",
+            "material" : "gold",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg12.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "642000"
+        },
+        {
+            "id" : 8,
+            "name" : "ရွှေဟန်းချိန်း",
+            "productId" : "0002D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg22.jpg",
+            "desc" : "ရွှေချိန် ၅ပဲ ၇.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "596000"
+        },
+        {
+            "id" : 9,
+            "name" : "ရွှေလက်စွပ်",
+            "productId" : "0002F",
+            "material" : "gold",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg32.jpg",
+            "desc" : "ရွှေချိန် ၇ပဲ ၆ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "662000"
+        },
+        {
+            "id" : 10,
+            "name" : "စိန်ဆွဲသီး",
+            "productId" : "0001G",
+            "material" : "diamond",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg42.jpg",
+            "desc" : "CZ ကျောက်၊ ရွှေချိန် ၆ပဲ ၃ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "586000"
+        },
+        {
+            "id" : 11,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0004A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg3.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၄ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "125000"
+        },
+        {
+            "id" : 12,
+            "name" : "ရွှေလက်ကောက်",
+            "productId" : "0002B",
+            "material" : "gold",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg13.jpg",
+            "desc" : "ရွှေချိန် ၂ကျပ် ၇.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "2573000"
+        },
+        {
+            "id" : 13,
+            "name" : "ရွှေဟန်းချိန်း",
+            "productId" : "0003D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg23.jpg",
+            "desc" : "ရွှေချိန် ၇ပဲ ၂ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "697000"
+        },
+        {
+            "id" : 14,
+            "name" : "စိန်လက်စွပ်",
+            "productId" : "0003F",
+            "material" : "diamond",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg33.jpg",
+            "desc" : "ရွှေချိန် ၃ပဲ ၆.၆ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "322000"
+        },
+        {
+            "id" : 15,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0001H",
+            "material" : "diamond",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg43.png",
+            "desc" : "စိန်+ရွှေချိန် ၂ပဲ ၄ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "646000"
+        },
+        {
+            "id" : 16,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0005A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg4.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၂ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "134000"
+        },
+        {
+            "id" : 17,
+            "name" : "စိန်လက်ကောက်",
+            "productId" : "0003B",
+            "material" : "diamond",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg14.jpg",
+            "desc" : "ရွှေချိန် ၁၃ပဲ ၄ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "12940000"
+        },
+        {
+            "id" : 18,
+            "name" : "ရွှေဟန်းချိန်း",
+            "productId" : "0004D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg24.jpg",
+            "desc" : "ရွှေချိန် ၇ပဲ ၃ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "707000"
+        },
+        {
+            "id" : 19,
+            "name" : "စိန်လက်စွပ်",
+            "productId" : "0004F",
+            "material" : "diamond",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg34.jpg",
+            "desc" : "စိန်+ရွှေချိန် ၁ကျပ် ၈ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "1242500"
+        },
+        {
+            "id" : 20,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0002H",
+            "material" : "diamond",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg44.png",
+            "desc" : "စိန်+ရွှေချိန် ၃ပဲ၊ ‌ရွှေရည် 18K",
+            "price" : "868000"
+        },
+        {
+            "id" : 21,
+            "name" : "ရွှေဆွဲကြိုး",
+            "productId" : "0006A",
+            "material" : "gold",
+            "category" : "necklace",
+            "image":"./src/assets/images/products/pimg5.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၃ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "159000"
+        },
+        {
+            "id" : 22,
+            "name" : "စိန်နားကပ်",
+            "productId" : "0001C",
+            "material" : "diamond",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg15.jpg",
+            "desc" : "စိန်+ရွှေချိန် ၁ပဲ၊ ‌ရွှေရည် 18K",
+            "price" : "1800000"
+        },
+        {
+            "id" : 23,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0001E",
+            "material" : "gold",
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg25.jpg",
+            "desc" : "ရွှေချိန် ၂ကျပ် ၈ပဲ ၀.၅ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "2063000"
+        },
+        {
+            "id" : 24,
+            "name" : "ရွှေလက်စွပ်",
+            "productId" : "0005F",
+            "material" : "gold",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg35.jpg",
+            "desc" : "ကျောက်+ရွှေချိန် ၂ပဲ ၃ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "250000"
+        },
+        {
+            "id" : 25,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0003H",
+            "material" : "diamond",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg45.png",
+            "desc" : "စိန်+ရွှေချိန် ၅ပဲ ၂.၅ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "1106000"
+        },
+        {
+            "id" : 26,
+            "name" : "ရွှေလက်ကောက်",
+            "productId" : "0004B",
+            "material" : "gold",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg6.jpg",
+            "desc" : "ရွှေချိန် ၁ကျပ် 3ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "1578000"
+        },
+        {
+            "id" : 27,
+            "name" : "စိန်နားကပ်",
+            "productId" : "0002C",
+            "material" : "diamond",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg16.jpg",
+            "desc" : "(A)စိန်+ရွှေချိန် ၅ပဲ ၆ရွေး၊ ‌ရွှေရည် ၄ပဲ ၂ပြားရည်",
+            "price" : "532500"
+        },
+        {
+            "id" : 28,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0002E",
+            "material" : "gold",
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg26.jpg",
+            "desc" : "ရွှေချိန် ၂ကျပ် ၈ပဲ ၀.၅ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "2667000"
+        },
+        {
+            "id" : 29,
+            "name" : "ရွှေလက်စွပ်",
+            "productId" : "0006F",
+            "material" : "gold",
+            "category" : "ring",
+            "image":"./src/assets/images/products/pimg36.jpg",
+            "desc" : "ရွှေချိန် ၆ပဲ ၀.၅ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "795000"
+        },
+        {
+            "id" : 30,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0004H",
+            "material" : "gold",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg46.jpg",
+            "desc" : "ရွှေချိန် ၄ပဲ ၀.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "586000"
+        },
+        {
+            "id" : 31,
+            "name" : "စိန်လက်ကောက်",
+            "productId" : "0005B",
+            "material" : "diamond",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg7.jpg",
+            "desc" : "ရွှေချိန် ၁ကျပ် ၁၃ပဲ ၇.၅ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "4706000"
+        },
+        {
+            "id" : 32,
+            "name" : "ရွှေနားကပ်",
+            "productId" : "0003C",
+            "material" : "gold",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg17.jpg",
+            "desc" : "ရွှေချိန် ၂ပဲ ၇ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "295000"
+        },
+        {
+            "id" : 33,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0003E",
+            "material" : "gold",
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg27.jpg",
+            "desc" : "ရွှေချိန် ၂ကျပ် ၇ပဲ ၁.၅ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "2619000"
+        },
+        {
+            "id" : 34,
+            "name" : "ရွှေဆွဲသီး",
+            "productId" : "0003G",
+            "material" : "gold",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg37.jpg",
+            "desc" : "CZ ကျောက်၊ရွှေချိန် ၁၄ပဲ ၄.၆ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "1221000"
+        },
+        {
+            "id" : 35,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0005H",
+            "material" : "gold",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg47.jpg",
+            "desc" : "ရွှေချိန် ၄ပဲ ၄.၃ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "676000"
+        },
+        {
+            "id" : 36,
+            "name" : "ရွှေလက်ကောက်",
+            "productId" : "0006B",
+            "material" : "gold",
+            "category" : "bracelet",
+            "image":"./src/assets/images/products/pimg8.jpg",
+            "desc" : "ရွှေချိန် ၈ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "1260000"
+        },
+        {
+            "id" : 37,
+            "name" : "ရွှေနားကပ်",
+            "productId" : "0004C",
+            "material" : "gold",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg18.jpg",
+            "desc" : "ရွှေချိန် ၂ပဲ ၃ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "230000"
+        },
+        {
+            "id" : 38,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0004E",
+            "material" : "gold",
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg28.jpg",
+            "desc" : "ရွှေချိန် ၃ကျပ် ၇ပဲ ၇.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "4800000"
+        },
+        {
+            "id" : 39,
+            "name" : "ရွှေဆွဲသီး",
+            "productId" : "0004G",
+            "material" : "gold",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg38.jpg",
+            "desc" : "ရွှေချိန် ၄ပဲ ၂.၆ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "396000"
+        },
+        {
+            "id" : 40,
+            "name" : "လက်ထပ်လက်စွပ်",
+            "productId" : "0006H",
+            "material" : "gold",
+            "category" : "weddingring",
+            "image":"./src/assets/images/products/pimg48.jpg",
+            "desc" : "ရွှေချိန် ၆ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "974000"
+        },
+        {
+            "id" : 41,
+            "name" : "ရွှေနားကပ်",
+            "productId" : "0005C",
+            "material" : "gold",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg9.jpg",
+            "desc" : "ရွှေချိန် ၃ပဲ ၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "830000"
+        },
+        {
+            "id" : 42,
+            "name" : "ရွှေဟန်းချိန်း",
+            "productId" : "0005D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg19.jpg",
+            "desc" : "ရွှေချိန် ၂ပဲ ၀.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "259000"
+        },
+        {
+            "id" : 43,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0005E",
+            "material" : "gold",    
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg29.jpg",
+            "desc" : "ရွှေချိန် ၂ကျပ် ၀ပဲ ၄ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "2215000"
+        },
+        {
+            "id" : 44,
+            "name" : "စိန်ဆွဲသီး",
+            "productId" : "0005G",
+            "material" : "diamond",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg39.jpg",
+            "desc" : "NTW စိန်၊ရွှေချိန် ၅ပဲ ၄ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "3070000"
+        },
+        {
+            "id" : 45,
+            "name" : "ရွှေနားကပ်",
+            "productId" : "0006C",
+            "material" : "gold",
+            "category" : "earrings",
+            "image":"./src/assets/images/products/pimg10.jpg",
+            "desc" : "ရွှေချိန် ၃ပဲ ၁.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "435000"
+        },
+        {
+            "id" : 46,
+            "name" : "ရွှေဟန်းချိန်း",
+            "productId" : "0006D",
+            "material" : "gold",
+            "category" : "handchain",
+            "image":"./src/assets/images/products/pimg20.jpg",
+            "desc" : "ရွှေချိန် ၁ကျပ် ၁ပဲ ၇.၅ရွေး၊ ‌ရွှေရည် ၁၅ပဲရည်",
+            "price" : "1578000"
+        },
+        {
+            "id" : 47,
+            "name" : "ရွှေဘယက်",
+            "productId" : "0006E",
+            "material" : "gold",
+            "category" : "bayet",
+            "image":"./src/assets/images/products/pimg30.jpg",
+            "desc" : "ရွှေချိန် ၁ကျပ် ၉ပဲ ၃.၅ရွေး၊ ‌ရွှေရည် ၁၄ပဲ ၂ပြားရည်",
+            "price" : "1810000"
+        },
+        {
+            "id" : 48,
+            "name" : "စိန်ဆွဲသီး",
+            "productId" : "0006G",
+            "material" : "diamond",
+            "category" : "locket",
+            "image":"./src/assets/images/products/pimg40.jpg",
+            "desc" : "NTWစိန်၊ ရွှေချိန် ၉ပဲ ၅.၅ရွေး၊ ‌ရွှေရည် 18K",
+            "price" : "2708000"
+        }
+    ]
+}
