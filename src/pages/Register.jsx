@@ -5,7 +5,7 @@ const Register = () => {
   return (
       <div className='bg-accent1 relative w-full min-h-screen flex justify-between items-center flex-wrap'>
           <div className='absolute w-[30px] md:w-[40px] left-6 md:left-10 top-6'>
-              <img className='w-full' src="./src/assets/images/ui/favicon white.png" alt="" />
+              <img className='w-full' src="./images/ui/favicon white.png" alt="" />
           </div>
           <div className='absolute left-16 md:left-24 top-9 z-40'>
               <p className='font-shippori text-white font-semibold text-xs'><Link to="/" className='underline underline-offset-2 hover:text-myorange'>Home</Link> / Register</p>
@@ -13,7 +13,7 @@ const Register = () => {
 
           <div className='w-[285px] mx-auto md:w-4/12 mt-6 ms:mt-0'>
               <div className='relative z-10'>
-                  <img className='w-full scale-110 md:scale-[1.5]' src="./src/assets/images/ui/paper Bag002.png" alt="package" />
+                  <img className='w-full scale-110 md:scale-[1.5]' src="./images/ui/Paper Bag002.png" alt="package" />
                   <div className='absolute top-3 -left-3 md:-left-5 -z-[1] w-full h-full flex justify-center items-center'>
                       <div className='w-[50%] h-[70%] md:w-[70%] py-2 rounded-full cardbg md:h-[100%] opacity-20 scale-110'></div>
                   </div>
@@ -84,7 +84,7 @@ const Register = () => {
                   </div>
               
                   <div className='absolute w-full left-0 -top-6 text-center'>
-                      <img className='inline w-[150px] opacity-50' style={{transform:'rotateX(180deg)'}} src="./src/assets/images/ui/foot1.png" alt="" />
+                      <img className='inline w-[150px] opacity-50' style={{transform:'rotateX(180deg)'}} src="./images/ui/foot1.png" alt="" />
                   </div>
               </div>
               <div className='pb-8 md:pb-0 self-center'>

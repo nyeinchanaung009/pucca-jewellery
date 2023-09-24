@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Master from '../layout/Master'
 import { useNavigate } from 'react-router-dom'
-import Context from '../../Context';
+import Context from '../Context';
 import CardFavourite from '../components/CardFavourite';
 
 const Favourite = () => {

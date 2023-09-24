@@ -1,6 +1,6 @@
 import React, { memo, useContext, useEffect, useState } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import Context from '../../Context';
+import Context from '../Context';
 import CardCart from './CardCart';
 
 const Nav = memo(() => {
@@ -69,10 +69,10 @@ const Nav = memo(() => {
                 <NavLink to="/about" className='navLink text-textpri text-sm font-bold tracking-wider hover:text-accent1 px-5 lg:px-8 py-1 border-r border-textmute'>ABOUT</NavLink>
                 <NavLink to="/contact" className='navLink text-textpri text-sm font-bold tracking-wider hover:text-accent1 px-5 lg:px-8 py-1 border-r border-textmute'>CONTACT</NavLink>
                 <div className='absolute -top-11 left-0 w-full text-center opacity-40 scale-x-110'>
-                    <img className='w-[125px] inline' src="../src/assets/images/ui/head1.png" alt="frame" />
+                    <img className='w-[125px] inline' src="../images/ui/head1.png" alt="frame" />
                 </div>
                 <div className='absolute -bottom-6 left-0 w-full text-center opacity-50 scale-x-110'>
-                    <img className='w-[75px] inline' src="../src/assets/images/ui/foot1.png" alt="frame" />
+                    <img className='w-[75px] inline' src="../images/ui/foot1.png" alt="frame" />
                 </div>
             </div>
 
@@ -156,10 +156,10 @@ const Nav = memo(() => {
                             <NavLink to="/about" className='navLink w-full text-center text-textbody text-sm font-semibold hover:text-accent1 px-10 py-3 border-b border-shape'>ABOUT</NavLink>
                             <NavLink to="/contact" className='navLink w-full text-center text-textbody text-sm font-semibold hover:text-accent1 px-10 py-3'>CONTACT</NavLink>
                             <div className='w-[115px] absolute -top-14 left-22 opacity-50'>
-                                <img className='w-full' src="../src/assets/images/ui/head1.png" alt="frame" />
+                                <img className='w-full' src="../images/ui/head1.png" alt="frame" />
                             </div>
                             <div className='w-[90px] absolute -bottom-10 left-[35%] opacity-50'>
-                                <img className='w-full' src="../src/assets/images/ui/foot1.png" alt="frame" />
+                                <img className='w-full' src="../images/ui/foot1.png" alt="frame" />
                             </div>
                         </div>
                         

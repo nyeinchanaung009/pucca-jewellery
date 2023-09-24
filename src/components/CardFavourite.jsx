@@ -1,6 +1,6 @@
 import React, { memo, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import Context from '../../Context';
+import Context from '../Context';
 
 const CardFavourite = memo(({data}) => {
     const {favItems,setFavItems,addToCart} = useContext(Context);

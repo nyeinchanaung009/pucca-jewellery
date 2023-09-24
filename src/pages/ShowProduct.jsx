@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Master from '../layout/Master'
 import { useNavigate, useParams } from 'react-router-dom'
-import Context from '../../Context';
+import Context from '../Context';
 import CardProduct from '../components/CardProduct';
 
 const ShowProduct = () => {

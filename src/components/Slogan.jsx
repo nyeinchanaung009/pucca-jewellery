@@ -3,7 +3,7 @@ import React, { memo } from 'react'
 const Slogan = memo(() => {
   return (
     <>
-        <div className='h-[500px] bg-fixed bg-no-repeat bg-cover' style={{backgroundImage: "url('./src/assets/images/ui/banner4.jpg')"}}>
+        <div className='h-[500px] bg-fixed bg-no-repeat bg-cover' style={{backgroundImage: "url('./images/ui/banner4.jpg')"}}>
             <div className='relative flex justify-center items-center h-full bg-zinc-800/50 backdrop-blur-[3px]'>
                 <div>
                     <div className='text-white font-shippori italic text-base md:text-2xl flex items-center font-semibold'>

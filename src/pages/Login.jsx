@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className='bg-neutral-100 relative min-h-screen'>
         <div className='absolute w-[30px] md:w-[40px] left-6 md:left-10 top-6'>
-            <img className='w-full' src="./src/assets/images/ui/favicon.png" alt="icon" />
+            <img className='w-full' src="./images/ui/favicon.png" alt="icon" />
         </div>
         <div className='absolute left-16 md:left-24 top-9 z-40'>
             <p className='font-shippori text-textbody font-semibold text-xs'><Link to="/" className='hover:underline underline-offset-2 text-accent1 hover:text-myorange'>Home</Link> / Login</p>
@@ -19,7 +19,7 @@ const Login = () => {
 
             <div className=' relative w-full md:w-6/12 mx-auto mt-8 md:mt-0'>
                 <div className='w-[200px] sm:w-4/12 md:w-9/12 lg:w-7/12 mx-auto'>
-                    <img className='w-full' src="./src/assets/images/ui/package1.png" alt="paper bag" />
+                    <img className='w-full' src="./images/ui/package1.png" alt="paper bag" />
                 </div>
             </div>
 
@@ -53,7 +53,7 @@ const Login = () => {
                         <Link to="/" className='w-full block text-center bg-accent1 py-2 text-white font-shippori mt-4 mb-3 rounded shadow font-bold hover:bg-myorange'>LOGIN</Link>
 
                         <div className="w-full absolute -top-5 right-0 text-center">
-                            <img className='inline w-[150px] opacity-30' style={{transform:'rotateX(180deg)'}} src="./src/assets/images/ui/foot1.png" alt="ui" />
+                            <img className='inline w-[150px] opacity-30' style={{transform:'rotateX(180deg)'}} src="./images/ui/foot1.png" alt="ui" />
                         </div>
                     </div>
                     <p className='font-shippori text-textbody text-center md:text-start text-sm mt-1 ms-4'>Don't have an account? <Link to="/register" className='text-accent1 font-bold hover:text-myorange hover:underline'>Register</Link> here.</p>

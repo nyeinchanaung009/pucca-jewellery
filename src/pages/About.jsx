@@ -9,10 +9,10 @@ const About = () => {
           <div className='mt-5 bg-white'>
               <h1 className='font-shippori font-bold text-2xl text-textpri text-center py-5 mt-3 md:mt-2'>ABOUT US</h1>
               
-              <div className='bg-fixed bg-no-repeat bg-cover bg-bottom pt-2' style={{backgroundImage: 'url(./src/assets/images/ui/banner1.jpg)'}}>
+              <div className='bg-fixed bg-no-repeat bg-cover bg-bottom pt-2' style={{backgroundImage: 'url(./images/ui/banner1.jpg)'}}>
                   <div className='w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 mx-auto z-40 relative text-center md:text-right translate-y-28 md:translate-y-32'>
                       <div className='w-[260px] h-[260] md:w-[285px] md:h-[285px] lg:w-[320px] lg:h-[320px] py-1 scale-90 inline-block'>
-                          <img className='w-full h-full object-cover rounded-full' src="./src/assets/images/ui/banner03.jpg" alt="pf" />
+                          <img className='w-full h-full object-cover rounded-full' src="./images/ui/banner03.jpg" alt="pf" />
                       </div>
                   </div>
               </div>

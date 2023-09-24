@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from 'react'
 import Master from '../layout/Master'
 import Categories from '../components/Categories'
 import CardProduct from '../components/CardProduct'
-import Context from '../../Context'
+import Context from '../Context'
 
 const Products = () => {
     const {datas} = useContext(Context);
@@ -87,9 +87,9 @@ const Products = () => {
     <Master>
         <div>
             {/* =========================================== categories =================================== */}
-            <div className='my-5'>
+            <div className='my-5 w-full'>
                 <h1 className='w-11/12 sm:w-9/12 mx-auto font-shippori font-bold text-lg text-textpri my-8'>CATEGORIES</h1>
-                <button onClick={scrollIntoP} className='lg:scale-95'>
+                <button onClick={scrollIntoP} className='block w-full lg:scale-95'>
                     <Categories filterSearch={filter} />
                 </button>
             </div>
@@ -110,7 +110,7 @@ const Products = () => {
                         <div className='relative group'>
                             <button title='filter' className='text-xs sm:text-xl  px-2 py-1 hover:cardbg text-textbody border border-shape rounded'><i className="bi bi-filter"></i><i className="bi bi-funnel"></i></button>
                             
-                            <div className="group-hover:block hidden absolute right-0 -top-3 z-40 mt-9 p-4 bg-white border border-shape rounded shadow-md shadow-black/20 w-[290px] h-fit">
+                            <div className="group-hover:block hidden absolute right-0 -top-3 lg:-top-1 z-40 mt-9 p-4 bg-white border border-shape rounded shadow-md shadow-black/20 w-[290px] h-fit">
                                 <div className='pb-5 border-b border-shape'>
                                     <h1 className='font-shippori font-semibold text-textbody mb-2'>Item type : </h1>
                                     <button onClick={() => filter('material','gold')} className='hover:bg-myyellow duration-200 bg-accent2 text-white mr-2 px-3 pb-2 pt-1 shadow rounded-sm'>#ရွှေ</button>
@@ -126,10 +126,10 @@ const Products = () => {
                                         <button onClick={() => filter('category','necklace')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#ဆွဲကြိုး</button>
                                         <button onClick={() => filter('category','bracelet')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#လက်ကောက်</button>
                                         <button onClick={() => filter('category','ring')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#လက်စွပ်</button>
-                                        <button onClick={() => filter('category','handchain')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#ဟန်းချိန်း</button>
+                                        <button onClick={() => filter('category','hand chain')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#ဟန်းချိန်း</button>
                                         <button onClick={() => filter('category','locket')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#ဆွဲသီး</button>
                                         <button onClick={() => filter('category','earrings')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#နားကပ်</button>
-                                        <button onClick={() => filter('category','weddingring')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#လက်ထပ်လက်စွပ်</button>
+                                        <button onClick={() => filter('category','wedding ring')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#လက်ထပ်လက်စွပ်</button>
                                         <button onClick={() => filter('category','bayet')} className='px-3 py-2 me-2 mb-2 text-xs font-bold text-textbody bg2 hover:bg1 duration-200 rounded-sm shadow-sm border hover:border-shape'>#လည်ဘယက်</button>
                                     </div>
                                 </div>

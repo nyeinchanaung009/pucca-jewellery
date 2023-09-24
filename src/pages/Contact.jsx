@@ -70,13 +70,13 @@ const Contact = () => {
 
         <div className='flex justify-center items-center flex-wrap mt-16 bg2 py-8'>
             <div className='w-[300px] md:w-[390px] mx-3 overflow-hidden mb-4 sm:mb-0 '>
-                <img onClick={() => openModal(1)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./src/assets/images/ui/shop1.png" alt="" />
+                <img onClick={() => openModal(1)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./images/ui/shop1.png" alt="" />
             </div>
             <div className='w-[300px] md:w-[390px] mx-3 overflow-hidden'>
-                <img onClick={() => openModal(2)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./src/assets/images/ui/shop2.png" alt="" />
+                <img onClick={() => openModal(2)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./images/ui/shop2.png" alt="" />
             </div>
             <div className='w-[300px] md:w-[390px] mx-3 overflow-hidden'>
-                <img onClick={() => openModal(3)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./src/assets/images/ui/shop3.png" alt="" />
+                <img onClick={() => openModal(3)} className='w-full hover:scale-110 hover:saturate-200 duration-200' src="./images/ui/shop3.png" alt="" />
             </div>
         </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
             <div onClick={() => setIsOpenModal(false)} className='text-end translate-y-2 sm:translate-y-5'><i className="bi bi-x-lg text-xl md:text-2xl lg:text-3xl text-white hover:bg-accent1 py-2 px-3 rounded-full mr-3 sm:mr-5"></i></div>
             <div id='modaldialog' className='relative h-full flex justify-center items-center'>
                 <div className='w-[92%] sm:w-[420px] md:w-[620px] lg:w-[900px] mx-auto'>
-                    <img className='w--full saturate-150' src={`./src/assets/images/ui/shop${curImage}.png`} alt="shop" />
+                    <img className='w--full saturate-150' src={`./images/ui/shop${curImage}.png`} alt="shop" />
                 </div>
                 <button onClick={prevImg} className='absolute left-0 sm:left-10 lg:left-16 top-[50%] text-2xl sm:text-3xl md:text-4xl text-accent1 bg-white hover:text-white hover:bg-accent1 rounded-full p-2 pe-3'><i className="bi bi-chevron-left"></i></button>
                 <button onClick={nextImg} className='absolute right-0 sm:right-10 lg:right-16 top-[50%] text-2xl sm:text-3xl md:text-4xl text-accent1 bg-white hover:text-white hover:bg-accent1 rounded-full p-2 ps-3'><i className="bi bi-chevron-right"></i></button>

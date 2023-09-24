@@ -1,5 +1,5 @@
 import React, { memo, useContext } from 'react'
-import Context from '../../Context'
+import Context from '../Context'
 
 const CardCart = memo(({data}) => {
     const {cartItems,setCartItems} = useContext(Context);

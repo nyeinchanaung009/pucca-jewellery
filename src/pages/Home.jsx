@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Link } from 'react-router-dom'
-import Context from '../../Context.js'
+import Context from '../Context.js'
 
 
 
@@ -40,11 +40,11 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='relative w-11/12 sm:w-5/12 lg:w-6/12 order-1 sm:order-2 z-10 overflow-hidden'>
-                            <img className='rotate-2 w-10/12 min-[450px]:w-7/12 min-[640px]:w-11/12 md:w-10/12 lg:w-7/12 xl:w-[443px] drop-shadow-md mx-auto xl:ml-16' src="src\assets\images\ui\hero1.png" alt="main img" />
+                            <img className='rotate-2 w-10/12 min-[450px]:w-7/12 min-[640px]:w-11/12 md:w-10/12 lg:w-7/12 xl:w-[443px] drop-shadow-md mx-auto xl:ml-16' src="./images/ui/hero1.png" alt="main img" />
                         </div>
 
                         <div className='absolute w-full -bottom-12 md:-bottom-18'>
-                            <img className='w-[80px] sm:w-[100px] md:w-[125px] mx-auto opacity-95 drop-shadow-md' src="./src/assets/images/ui/img14.png" alt="" />
+                            <img className='w-[80px] sm:w-[100px] md:w-[125px] mx-auto opacity-95 drop-shadow-md' src="./images/ui/img14.png" alt="" />
                         </div>
                     </div>
                 </header>
@@ -106,9 +106,9 @@ const Home = () => {
                 <div className='py-16'>
                     <div className='relative w-[240px] sm:w-[300px] md:w-[350px] mx-auto'>
                         <div className='w-full absolute bottom-1'>
-                            <img style={{transform:'rotateX(180deg) scaleX(1.1)'}}  className='w-5/12 mx-auto opacity-20' src="./src/assets/images/ui/foot1.png" alt="divider2" />
+                            <img style={{transform:'rotateX(180deg) scaleX(1.1)'}}  className='w-5/12 mx-auto opacity-20' src="./images/ui/foot1.png" alt="divider2" />
                         </div>
-                        <img className='opacity-20' src="./src/assets/images/ui/foot2.png" alt="divider" />
+                        <img className='opacity-20' src="./images/ui/foot2.png" alt="divider" />
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ const Home = () => {
                 <section className='min-h-[78vh] bg2 relative'>
                     <div className='min-h-[78vh] flex justify-center items-center flex-wrap py-10 md:py-5'>
                         <div className='w-full sm:w-5/12 md:w-6/12 relative z-10'>
-                            <img className='w-10/12 min-[450px]:w-7/12 min-[640px]:w-10/12  md:w-9/12 lg:w-7/12 xl:w-[443px] drop-shadow-sm mx-auto sm:scale-110 md:scale-100' src="src\assets\images\ui\hero2.png" alt="main img" />
+                            <img className='w-10/12 min-[450px]:w-7/12 min-[640px]:w-10/12  md:w-9/12 lg:w-7/12 xl:w-[443px] drop-shadow-sm mx-auto sm:scale-110 md:scale-100' src="./images/ui/hero2.png" alt="main img" />
                         </div>
                         <div className='w-full sm:w-7/12 md:w-5/12 lg:w-5/12'>
                             <div className='w-fit font-shippori p-3 mx-auto ps-5 md:ps-0 lg:-ms-10'>

@@ -76,11 +76,10 @@ const Footer = memo(() => {
             </div>
 
             <div className='absolute w-full left-0 -top-5 text-center'>
-                <img style={{transform:'rotateX(180deg) scaleX(1.1)'}} className='w-[130px] opacity-50 inline'  src="../src/assets/images/ui/foot1.png" alt="pattern" />
+                <img style={{transform:'rotateX(180deg) scaleX(1.1)'}} className='w-[130px] opacity-50 inline'  src="../images/ui/foot1.png" alt="pattern" />
             </div>
         </footer>
     </>
-    
   )
 })
 

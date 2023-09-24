@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Master from '../layout/Master'
 import { Link, useNavigate } from 'react-router-dom'
-import Context from '../../Context';
+import Context from '../Context';
 import CardOrder from '../components/CardOrder';
 
 const Order = () => {
@@ -13,7 +13,7 @@ const Order = () => {
         <div className='min-h-[88vh] w-full flex bg2 justify-start items-center flex-col'>
             
             <div className='w-[200px] sm:w-[240px] mx-auto'>
-                <img className='w-full' src="./src/assets/images/ui/package2.png" alt="package" />
+                <img className='w-full' src="./images/ui/package2.png" alt="package" />
             </div>
 
             <div className='w-11/12 sm:w-9/12 md:w-7/12 lg:w-4/12 my-3'>
