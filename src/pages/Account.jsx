@@ -37,7 +37,7 @@ const navigate = useNavigate();
                         <textarea onChange={(e) => e} className='w-full bg-white p-2 border-2 outline-none hover:border-accent1 rounded' rows='3' value=' Nagoya, Aichi, Japan' type="text" ></textarea>
                     </div>
                     <div className='mb-3'>
-                        <button className='bg-accent1 text-white w-full py-2 rounded shadow hover:bg-myorange'>Save Changes</button>
+                        <button className='bg-accent1 text-white w-full py-2 rounded-3xl shadow hover:bg-myorange'>Save Changes</button>
                     </div>
                 </div>
 

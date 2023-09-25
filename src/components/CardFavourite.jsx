@@ -21,13 +21,13 @@ const CardFavourite = memo(({data}) => {
             </div>
             <div className='font-shippori font-semibold ms-5'>
                 <h1 className='text-textpri text-sm mt-3 hover:text-myorange'><Link to={'/showproduct/'+data.id}>{data.name} #{data.productId}</Link></h1>
-                <p className='text-textmute text-sm mt-1 font-light'>{data.desc}</p>
+                <p className='text-textmute text-xs mt-1 font-light'>{data.desc}</p>
                 <h1 className='text-textpri my-2 font-bold'>Price : {data.price} MMK</h1>
             </div>
         </div>
         <div className='text-right border-t border-shape pt-2'>
-            <button onClick={() => removeFav(data.id)} className='scale-90 text-sm font-shippori text-white bg-teal-800 px-4 py-2 rounded-sm hover:bg-myorange font-bold'>Remove</button>
-            <button onClick={() => addToCart(data)} className='scale-90 text-sm font-shippori text-white bg-accent1 px-4 py-2 rounded-sm hover:bg-myorange font-bold'>Add to Cart</button>
+            <button onClick={() => removeFav(data.id)} className='scale-90 text-sm font-shippori text-white bg-teal-800 px-4 py-2 rounded-3xl hover:bg-myorange font-bold'>Remove</button>
+            <button onClick={() => addToCart(data)} className='scale-90 text-sm font-shippori text-white bg-accent1 px-4 py-2 rounded-3xl hover:bg-myorange font-bold'>Add to Cart</button>
         </div>
     </div>
   )

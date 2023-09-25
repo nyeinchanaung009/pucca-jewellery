@@ -14,7 +14,7 @@ const Contactbox = memo(() => {
             <div className='w-11/12 sm:w-6/12 md:w-3/12 text-center mb-10 md:mb-0'>
                 <span className='text-[33px]'><i className="bi bi-geo-alt"></i></span>
                 <h1 className='text-textpri font-shippori font-black text-xl mt-3'>Location</h1>
-                <p className='font-shippori font-medium mt-2'>အမှတ်(၆၉၇)၊ မဟာဗန္ဓုူလလမ်းနှင့် စဉ့်အိုးတန်း<br />လမ်းထောင့်၊ လသာမြို့နယ်၊ ရန်ကုန်မြို့။,</p>                    
+                <p className='font-shippori font-medium mt-2'>အမှတ်(၆၉၇)၊ မဟာဗန္ဓုလလမ်းနှင့် စဉ့်အိုးတန်း<br />လမ်းထောင့်၊ လသာမြို့နယ်၊ ရန်ကုန်မြို့။,</p>                    
             </div>
             <div className='w-11/12 sm:w-6/12 md:w-3/12 text-center mb-10 md:mb-0'>
                 <span className='text-[33px]'><i className="bi bi-envelope-paper"></i></span>

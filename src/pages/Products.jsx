@@ -8,6 +8,7 @@ const Products = () => {
     const {datas} = useContext(Context);
     const inputRef = useRef();
 
+    const [filterModal,setFilterModal] = useState(false);
     const [isSearch,setIsSearch] = useState(false);
     const [showData,setShowData] = useState(datas);
     const [itemdesc,setItemDesc] = useState('All');
@@ -26,10 +27,12 @@ const Products = () => {
 
     const prevPage = () => {
         currentPage > 1 && setCurrentPage(currentPage-1);
+        scrollIntoP();
     }
 
     const nextPage = () => {
         currentPage < totalPage && setCurrentPage(currentPage+1);
+        scrollIntoP();
     }
 
     const filter = (type,content) => {
@@ -41,18 +44,21 @@ const Products = () => {
             setShowData(datas.filter(val => val.category == content));
         }
         setItemDesc(content.toUpperCase());
+        setFilterModal(false);
     }
 
     const allItem = () => {
         setCurrentPage(1);
         setShowData(datas);
         setItemDesc('All');
+        setFilterModal(false);
     }
 
     const latest = () => {
         setCurrentPage(1);
         setShowData(datas.slice(-12));
         setItemDesc('Newest');
+        setFilterModal(false);
     }
 
     const searchItem = () => {
@@ -74,6 +80,11 @@ const Products = () => {
         inputRef.current.value = '';
         setIsSearch(false);
         allItem();
+    }
+
+    const paginationBtn = (value) => {
+        setCurrentPage(parseInt(value));
+        scrollIntoP();
     }
 
     const scrollIntoP = () => {
@@ -99,20 +110,24 @@ const Products = () => {
             {/* ============================================= products ============================= */}
             <div>
 
-                <div id='products' className='w-11/12 sm:w-9/12 py-3 sm:py-12 mx-auto flex justify-between items-center flex-wrap'>
+                <div id='products' className='w-11/12 sm:w-9/12 py-3 sm:py-12 mx-auto flex justify-between items-center flex-wrap mt-5 sm:mt-0'>
                     <h1  className='font-shippori font-bold text-lg text-textpri mb-4 sm:mb-0'>PRODUCTS <span className='text-base text-textbody ms-5'>Items : <span className='font-black'>{itemdesc}</span></span></h1>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex justify-between items-center mb-8 sm:mb-4 md:mb-0'>
                         <div className='me-1 sm:me-3 flex justify-center items-stretch'>
                             <input onKeyUp={searchbyenter} ref={inputRef} className='w-9/12 font-shippori bg3 px-2 py-1 rounded-s outline-none border-2 focus:border-accent1' placeholder='Search . . .' type="text" />
-                            <i onClick={searchItem} className="bi bi-search bg-accent1 pt-1 px-3 text-white rounded-e hover:bg-myorange"></i>
+                            <i onClick={searchItem} className="bi bi-search bg-accent1 pt-[6px] px-3 text-white rounded-e hover:bg-myorange"></i>
                         </div>
 
-                        <div className='relative group'>
-                            <button title='filter' className='text-xs sm:text-xl  px-2 py-1 hover:cardbg text-textbody border border-shape rounded'><i className="bi bi-filter"></i><i className="bi bi-funnel"></i></button>
+                        <div className='relative'>
+                            <button onClick={() => setFilterModal(pre => !pre)} title='filter' className='text-xs sm:text-xl  px-2 py-1 hover:cardbg text-textbody border border-shape rounded'><i className="bi bi-filter"></i><i className="bi bi-funnel"></i></button>
                             
-                            <div className="group-hover:block hidden absolute right-0 -top-3 lg:-top-1 z-40 mt-9 p-4 bg-white border border-shape rounded shadow-md shadow-black/20 w-[290px] h-fit">
+                            {filterModal &&
+                            <div className="absolute right-0 -top-3 lg:-top-1 z-40 mt-9 p-4 bg-white border border-shape rounded shadow-md shadow-black/20 w-[290px] h-fit">
                                 <div className='pb-5 border-b border-shape'>
-                                    <h1 className='font-shippori font-semibold text-textbody mb-2'>Item type : </h1>
+                                    <div className='flex justify-between items-center mb-2'>
+                                        <h1 className='font-shippori font-semibold text-textbody'>Item type : </h1>
+                                        <button onClick={() => setFilterModal(false)} className='text-myorange px-1 rounded-full border border-textmute hover:bg-myorange hover:text-white'><i className="bi bi-x-lg"></i></button>
+                                    </div>
                                     <button onClick={() => filter('material','gold')} className='hover:bg-myyellow duration-200 bg-accent2 text-white mr-2 px-3 pb-2 pt-1 shadow rounded-sm'>#ရွှေ</button>
                                     <button onClick={() => filter('material','diamond')} className='hover:bg-myyellow duration-200 bg-accent2 text-white mr-2 px-3 pb-2 pt-1 shadow rounded-sm'>#စိန်</button>
                                 </div>
@@ -134,13 +149,14 @@ const Products = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+                            }
+
                         </div>
                     </div>
                     
                 </div>
                 {isSearch && (
-                    <div className='w-10/12 sm:w-9/12 mx-auto my-4 md:my-5 bg2 px-3 sm:px-5 md:px-9 flex justify-between items-center'>
+                    <div className='w-11/12 sm:w-10/12 md:w-9/12 mx-auto mb-7 bg2 px-3 sm:px-5 md:px-9 flex justify-between items-center'>
                         <h1 className='font-shippori text-textbody font-bold'>{showData.length} Products Found</h1>
                         <button onClick={closeSearch} className='text-red-500 px-2 py-1 rounded-full hover:cardbg  my-2'><i className="bi-x-lg text-2xl"></i></button>
                     </div>
@@ -149,7 +165,7 @@ const Products = () => {
                     
                     {showData.length > 0 &&
                         paginatedData.map(val => (
-                            <CardProduct key={val.id} data={val} wid='w-6/12 min-[580px]:w-4/12 lg:w-3/12 xl:w-[300px]' />
+                            <CardProduct key={val.id} data={val} wid='w-6/12 min-[580px]:w-4/12 lg:w-3/12 xl:w-[280px]' />
                         ))
                     }
                     {showData.length < 1 && isSearch ? (
@@ -171,7 +187,7 @@ const Products = () => {
                         <button onClick={prevPage} className={currentPage == 1 ? 'pointer-events-none opacity-70 pag' : 'pag'}><i className="bi bi-chevron-left"></i></button>
                         {
                         pagination.map(val => (
-                                <button key={val} onClick={() => setCurrentPage(parseInt(val))} id='paginateItem' className={currentPage == val ? 'active pag' : 'pag'} >{val}</button>
+                            <button key={val} onClick={() => paginationBtn(val)} id='paginateItem' className={currentPage == val ? 'active pag' : 'pag'} >{val}</button>
                         ))                     
                         }
                         <button onClick={nextPage} className={currentPage == totalPage ? 'pointer-events-none opacity-70 pag' : 'pag'} ><i className="bi bi-chevron-right"></i></button>

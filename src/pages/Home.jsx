@@ -35,7 +35,7 @@ const Home = () => {
                                 <h1 className='inline text-3xl md:text-5xl font-shippori text-textpri opacity-95 leading-5 tracking-[2px]'>PUCCA</h1>
                                 <h1 className='text-2xl md:text-[28px] py-1 font-shippori text-textori opacity-95 leading-5 pb-4'>Goldsmith & Jewellery</h1>
                                 <p className='font-medium text-textbody text-base md:text-lg py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Impedit, est veniam asperiores!</p>
-                                <Link to='/products' className='inline-block bg-accent2 font-semibold px-8 py-1 text-white me-8 mt-3 shadow-sm hover:bg-myorange'>SHOP NOW</Link>
+                                <Link to='/products' className='inline-block bg-accent2 font-semibold px-6 sm:px-8 py-1 text-white me-8 mt-3 shadow-sm hover:bg-myorange rounded-3xl'>SHOP NOW</Link>
                                 <button className='hover:opacity-75'><Link to="products">See more<i className="bi bi-arrow-right ms-2 "></i></Link></button>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Home = () => {
                             <div className='w-fit font-shippori p-3 mx-auto ps-5 md:ps-0 lg:-ms-10'>
                                 <h1 className='font-black text-textpri text-2xl md:text-3xl py-2'>The Lorem Ipsum Dolor</h1>
                                 <p className='font-medium text-textbody text-base md:text-lg py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Impedit, est veniam asperiores!</p>
-                                <button className='bg-accent2 px-8 py-1 text-white me-8 mt-3 shadow-sm hover:bg-myorange'><Link to='/products'>Buy Now</Link></button>
+                                <button className='bg-accent2 px-8 md:px-12 py-1 text-white me-8 mt-3 shadow-sm hover:bg-myorange'><Link to='/products'>Buy Now</Link></button>
                                 <button className='hover:opacity-75'><Link to='/products'>Learn more<i className="bi bi-arrow-right ms-2 "></i></Link></button>
                             </div>
                         </div>

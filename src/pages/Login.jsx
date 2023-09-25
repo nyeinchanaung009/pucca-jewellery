@@ -17,7 +17,7 @@ const Login = () => {
 
         <div className='h-screen flex justify-between items-start md:items-center flex-wrap'>
 
-            <div className=' relative w-full md:w-6/12 mx-auto mt-8 md:mt-0'>
+            <div className=' relative w-full md:w-6/12 mx-auto mt-14 md:mt-0'>
                 <div className='w-[200px] sm:w-4/12 md:w-9/12 lg:w-7/12 mx-auto'>
                     <img className='w-full' src="./images/ui/package1.png" alt="paper bag" />
                 </div>
@@ -50,7 +50,7 @@ const Login = () => {
                             <input className='scale-125 accent-accent1 me-2' type="checkbox" />Remember Me
                         </div>
 
-                        <Link to="/" className='w-full block text-center bg-accent1 py-2 text-white font-shippori mt-4 mb-3 rounded shadow font-bold hover:bg-myorange'>LOGIN</Link>
+                        <Link to="/" className='w-full block text-center bg-accent1 py-2 text-white font-shippori mt-4 mb-3 shadow font-bold hover:bg-myorange rounded-3xl'>LOGIN</Link>
 
                         <div className="w-full absolute -top-5 right-0 text-center">
                             <img className='inline w-[150px] opacity-30' style={{transform:'rotateX(180deg)'}} src="./images/ui/foot1.png" alt="ui" />

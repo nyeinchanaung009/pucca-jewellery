@@ -11,7 +11,7 @@ const Register = () => {
               <p className='font-shippori text-white font-semibold text-xs'><Link to="/" className='underline underline-offset-2 hover:text-myorange'>Home</Link> / Register</p>
           </div>
 
-          <div className='w-[285px] mx-auto md:w-4/12 mt-6 ms:mt-0'>
+          <div className='w-[285px] mx-auto md:w-4/12 mt-14 ms:mt-0'>
               <div className='relative z-10'>
                   <img className='w-full scale-110 md:scale-[1.5]' src="./images/ui/Paper Bag002.png" alt="package" />
                   <div className='absolute top-3 -left-3 md:-left-5 -z-[1] w-full h-full flex justify-center items-center'>
@@ -80,7 +80,7 @@ const Register = () => {
                   
 
                   <div className='text-center pt-6'>
-                        <Link to="/" className='block w-11/12 mx-auto sm:w-[265px] font-shippori font-black text-white bg-accent1 rounded shadow py-2 tracking-widest hover:bg-myorange'>REGISTER</Link>
+                        <Link to="/" className='block w-11/12 mx-auto sm:w-[265px] font-shippori font-black text-white bg-accent1 rounded-3xl shadow py-2 tracking-widest hover:bg-myorange'>REGISTER</Link>
                   </div>
               
                   <div className='absolute w-full left-0 -top-6 text-center'>

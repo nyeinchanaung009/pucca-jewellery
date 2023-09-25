@@ -64,7 +64,7 @@ const Contact = () => {
                 <input className='bg2 shadow border-2 border-shape outline-none focus:border-accent2 w-full p-2 mb-1 text-textpri font-shippori' type="text" placeholder='Name . . .' />
                 <input className='bg2 shadow border-2 border-shape outline-none focus:border-accent2 w-full p-2 mb-1 text-textpri font-shippori' type="text" placeholder='Email . . .' />
                 <textarea className='bg2 shadow border-2 border-shape outline-none focus:border-accent2 w-full p-2 mb-1 text-textpri font-shippori' placeholder='Write text here . . .'  rows="7"></textarea>
-                <button className='font-shippori text-white bg-accent1 py-2 w-full rounded mt-2 shadow hover:bg-myorange'>SEND</button>
+                <button className='font-shippori text-white bg-accent1 py-2 w-full mt-2 shadow hover:bg-myorange rounded-3xl'>SEND</button>
             </div>
         </div>
 

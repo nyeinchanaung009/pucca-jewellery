@@ -50,7 +50,7 @@ const ShowProduct = () => {
                             <p className='text-textbody text-sm py-1 pe-2 sm:pe-6 font-light md:pe-10 lg:pe-20'>{data.desc}</p>
                             <h1 className='md:text-lg text-textpri py-3'>Price : {data.price} MMK</h1>
                             <div className='mt-5'>
-                                <button onClick={() => addToCart(data)} className='bg-accent2 text-white shadow-md text-sm py-2 border px-6 sm:px-10 hover:bg-myorange'>Add to Cart</button>
+                                <button onClick={() => addToCart(data)} className='bg-accent2 text-white shadow-md text-sm py-2 border px-6 sm:px-10 hover:bg-myorange rounded-3xl'>Add to Cart</button>
                             </div>
                         </div>
                         <div className='text-end'>
@@ -64,7 +64,7 @@ const ShowProduct = () => {
 
                 <div className='w-11/12 sm:w-10/12 mx-auto'>
                     <h1 className='w-11/12 sm:w-[9/12] mx-auto font-shippori font-bold text-textpri text-xl mt-10 mb-10 text-center'>Similar Items</h1>
-                    <div className=' flex justify-center items-center flex-wrap'>
+                    <div className='flex justify-center items-center flex-wrap'>
                         {
                             similar.map(val => (
                                 <CardProduct key={val.id} data={val} wid='w-6/12 min-[580px]:w-4/12 lg:w-3/12 xl:w-[300px]' />

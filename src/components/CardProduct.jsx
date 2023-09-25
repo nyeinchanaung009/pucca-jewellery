@@ -16,7 +16,7 @@ const CardProduct = ({wid,data}) => {
   return (             
     <>                      
         <div className={wid + ' mb-12 font-shippori font-semibold text-center'} >
-            <div className='w-11/12 md:w-10/12 lg:w-9/12 mx-auto'>
+            <div className='w-11/12 md:w-10/12 lg:w-11/12 xl:w-11/12 mx-auto'>
                 <div className='group w-fit overflow-hidden'>
                     <Link to={'/showproduct/'+data.id}><img className='md:w-[85%] md:py-1 mx-auto group-hover:scale-105 opacity-100 group-hover:opacity-70 duration-300 border-2 border-emerald-800/50 shadow-lg' src={'../' + data.image} alt="category" /></Link>
                 </div>
@@ -26,8 +26,8 @@ const CardProduct = ({wid,data}) => {
                     <h1 className='text-texpri text-sm font-black my-2'>{data.price} MMK</h1>
                 </div>
                 <div className='flex justify-between items-center sm:px-1 pb-4 pt-1'>
-                    <div className='flex-1 '>
-                        <button title='Add to Cart' onClick={() => addToCart(data)} className='bg-accent2 px-1 sm:px-4 text-xs py-2 text-white shadow-md hover:bg-myorange'>ADD TO CART</button>
+                    <div className='flex-1'>
+                        <button title='Add to Cart' onClick={() => addToCart(data)} className='bg-accent2 px-3 sm:px-4 md:px-5 text-xs py-2 text-white shadow-md hover:bg-myorange rounded-2xl min-[416px]:translate-x-1'>ADD TO CART</button>
                     </div>
                     <button title='Add to Favourite Items' onClick={() => toggleFav(data.id)} className='md:-translate-x-2 lg:-translate-x-5'><i style={{filter:'drop-shadow(-1px 1px rgba(0,0,0,0.2))'}} className={favItems.includes(data.id) ? "bi bi-heart-fill text-emerald-600 hover:text-myorange" : "bi bi-heart text-accent1 hover:text-myorange"}></i></button>
                 </div>

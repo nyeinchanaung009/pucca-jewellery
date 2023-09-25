@@ -114,7 +114,7 @@ const Nav = memo(() => {
                                     <h1 className='font-shippori font-semibold text-textbody text-sm'>Total : </h1>
                                     <p className='font-shippori font-bold text-textpri'>{total} MMK</p>
                                 </div>
-                                <button onClick={() => order()} className='w-full rounded shadow py-2 bg-accent1 mb-3 text-sm text-white font-shippori font-bold hover:bg-myorange'>Checkout</button>
+                                <button onClick={() => order()} className='w-full rounded-3xl shadow py-2 bg-accent1 mb-3 text-sm text-white font-shippori font-bold hover:bg-myorange'>Checkout</button>
                             </div>
 
                         </div>
@@ -124,13 +124,14 @@ const Nav = memo(() => {
 
                 {/* =========================== user options ================================= */}
                 <div id='' onClick={() => setUserOption(pre => !pre)} className='group userOptionOpener relative hover:bg2 px-1 rounded duration-100'>
-                    {/* <i className="userOptionOpener bi bi-person bg-accent1 rounded-full px-2 py-1 text-textwhite me-1 text-lg"></i> */}
-                    <div className='flex justify-center items-center cursor-pointer pt-1'>
+                    <i className="userOptionOpener bi bi-person bg-accent1 rounded-full px-2 py-1 text-textwhite me-1"></i>
+                    <i className="userOptionOpener bi bi-caret-down-fill text-textmute group-hover:text-accent1"></i> 
+                    {/* <div className='flex justify-center items-center cursor-pointer pt-1'>
                         <div className='overflow-hidden'>
                             <img className='userOptionOpener object-cover w-[30px] rounded-full border border-textmute py-1' src="https://nordot-res.cloudinary.com/c_limit,w_800,f_auto,q_auto:eco/ch/images/1055490703937389354/origin_1.jpg" alt="profile" />
                         </div>
                         <i className="userOptionOpener bi bi-caret-down-fill text-textbody group-hover:text-accent1"></i> 
-                    </div>
+                    </div> */}
 
                     <div className={userOption ? 'whitebg absolute top-8 -right-4 flex flex-col justify-start items-start w-[170px] font-shippori border border-shape shadow rounded-sm z-10' : 'hidden' }>
                         <Link to="/login"  className='w-full text-sm text-left tracking-wider py-2 border-b border-shape font-semibold text-textbody hover:bg1 whitespace-nowrap'><i className="bi bi-box-arrow-in-right me-3 border-l-4 ps-3 py-2 border-accent1"></i>Login/Signup</Link>
